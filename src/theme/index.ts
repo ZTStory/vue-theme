@@ -62,9 +62,11 @@ export const addThemeLink = (themeTag: string) => {
  */
 export const changeTheme = (themeTag: string) => {
     const lowerThemeTag = themeTag.toLocaleLowerCase();
+
     if (DEFAULT_THEME_LIST.includes(lowerThemeTag)) {
         document.body.setAttribute(THEME_MODE_ATTR, lowerThemeTag);
     } else {
         addThemeLink(lowerThemeTag);
     }
+    localStorage.setItem("kThemeMode", themeTag);
 };
