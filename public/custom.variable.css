@@ -1,0 +1,7 @@
+:root body[theme-mode="custom"] {
+    --color-background: #f1f1f1;
+
+    --color-heading: #000;
+    --color-text: #666;
+    --color-text-2: #999;
+}
