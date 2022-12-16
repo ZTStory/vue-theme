@@ -1,0 +1,7 @@
+:root body[theme-mode="pink"] {
+    --color-background: #f568cb;
+
+    --color-heading: rgb(60, 207, 230);
+    --color-text: rgb(255, 255, 255);
+    --color-text-2: rgb(220, 220, 220);
+}
